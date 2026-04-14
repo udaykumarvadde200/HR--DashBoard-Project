@@ -1,5 +1,7 @@
 # 🚀 HR Analytics Dashboard (Tableau)
 
+📊 Interactive HR dashboard analyzing workforce, attrition, and salary trends using Tableau.
+
 ## 📌 Project Overview
 This project presents an **interactive HR Analytics Dashboard** built using Tableau to analyze employee data and derive meaningful insights related to workforce distribution, attrition, hiring trends, and performance.
 
