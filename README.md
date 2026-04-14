@@ -27,15 +27,34 @@ The dataset is **synthetically generated using Python** to simulate real-world H
 
 ## 📂 Project Structure
 ```
-HR--DashBoard-Project/
+HR-Analytics-Dashboard/
 │
-├── HR Dashboard.twbx        # Tableau packaged workbook
-├── dataset.csv              # Employee dataset
-├── generate_data.py         # Python script to generate synthetic data
-├── HR Dashboard.png         # Dashboard preview
-├── images/                  # UI assets & dashboard components
-└── Dashboard mockup.drawio  # Initial dashboard design
+├── hr_dashboard.twbx
+├── hr_dataset.csv
+├── generate_hr_data.py
+├── images/
+│   ├── dashboard_overview.png
+│   ├── employee_overview.png
+│   ├── attrition.png
+│   └── salary_performance.png
+└── Dashboard mockup.drawio
 ```
+
+---
+
+## 📸 Dashboard Screenshots
+
+### 🔹 Full Dashboard Overview
+![Dashboard](images/dashboard_overview.png)
+
+### 🔹 Employee & Department Analysis
+![Employee](images/employee_overview.png)
+
+### 🔹 Attrition Insights
+![Attrition](images/attrition.png)
+
+### 🔹 Salary & Performance
+![Salary](images/salary_performance.png)
 
 ---
 
@@ -60,30 +79,25 @@ HR--DashBoard-Project/
 
 ---
 
-## 🖼️ Dashboard Preview
-![HR Dashboard](HR Dashboard.png)
-
----
-
 ## ⚙️ How to Run the Project
 
 ### 1️⃣ Open Dashboard
-- Download `HR Dashboard.twbx`
+- Download `hr_dashboard.twbx`
 - Open using **Tableau Desktop / Tableau Public**
 
 ### 2️⃣ Generate Dataset (Optional)
 ```bash
 pip install pandas faker
-python generate_data.py
+python generate_hr_data.py
 ```
 
 ---
 
 ## 📈 Key Insights
-- Workforce is unevenly distributed across departments  
-- Certain departments show higher attrition rates  
-- Salary varies significantly based on role and experience  
-- Hiring trends fluctuate across years indicating demand cycles  
+- IT and Sales departments have the highest employee count  
+- Attrition is higher among employees with less experience  
+- Salary increases with role and experience level  
+- Hiring trends indicate organizational growth phases  
 
 ---
 
