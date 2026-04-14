@@ -5,3 +5,10 @@
 This project presents an interactive HR Analytics Dashboard built using Tableau to analyze employee data and derive meaningful insights related to workforce distribution, attrition, hiring trends, and performance.
 
 The dataset is synthetically generated using Python to simulate real-world HR data, ensuring realistic patterns in employee demographics, salaries, departments, and employment status.
+
+🎯 Objectives
+Analyze employee distribution across departments and locations
+Track hiring trends over time
+Identify attrition patterns and employee turnover
+Evaluate salary distribution and performance ratings
+Provide actionable insights for HR decision-making
