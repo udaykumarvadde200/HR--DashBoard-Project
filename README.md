@@ -100,7 +100,11 @@ python generate_hr_data.py
 - Hiring trends indicate organizational growth phases  
 
 ---
-
+## 🚀 Project Impact
+- Helps HR teams understand workforce trends
+- Enables data-driven decision making
+- Identifies attrition patterns for better retention
+---
 ## 🔮 Future Improvements
 - Add real-world dataset integration  
 - Deploy dashboard on Tableau Public  
